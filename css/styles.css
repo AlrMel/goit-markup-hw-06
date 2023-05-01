@@ -769,7 +769,7 @@ img {
 
 .modal {
     position: absolute;
-    min-width: 408px;
+    width: 408px;
     min-height: 576px;
     left: 50%;
     top: 50%;
@@ -785,6 +785,40 @@ img {
     transform: scale(1) translate(-50%, -50%);
     transition: transform var(--anime);
 }
+.modal-icon {
+    fill: currentColor;
+}
+
+.modal-title {
+}
+.modal-form {
+}
+.modal-form-lable {
+}
+.modal-form-field {
+}
+.modal-form-input {
+}
+.modal-form-icon {
+}
+.modal-form-message {
+}
+.modal-form-agree-label {
+}
+.modal-form-checkbox {
+}
+.modal-form-policytext {
+}
+.modal-form-agree-link {
+}
+.modal-button {
+}
+.hero-button {
+}
+.btn {
+}
+
+
 
 
 .modal-btn {
@@ -792,10 +826,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
     margin-left: auto;
     border-radius: 50%;
     cursor: pointer;
+    
 
     width: 24px;
     height: 24px;
@@ -818,6 +854,3 @@ img {
     color: var(--color-white);
 }
 
-.modal-icon {
-    fill: currentColor;
-}
