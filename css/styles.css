@@ -574,6 +574,7 @@ img {
 .footer-main {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 .footer-social {
@@ -596,7 +597,7 @@ img {
 }
 
 .footer-left {
-    margin-right: 120px;
+    
 }
 
 .footer-right .team-social-list {
@@ -605,7 +606,7 @@ img {
 }
 
 .footer-right {
-    margin-right: 80px;
+   
 }
 
 .footer-list .team-social-link:focus {
@@ -890,13 +891,14 @@ color: var(--color-light-slate);
     border: 1px solid var(--color-navy-blue-modal);
     border-radius: 4px;
 
-        outline: 2px solid transparent;
+        outline: 1px solid transparent;
         outline-offset: -2px;
         transition: transform var(--anime);
 }
 
 
 .modal-form-input:focus {
+    border: transparent;
 outline-color: var(--color-iris);
     
 }
@@ -916,6 +918,7 @@ outline-color: var(--color-iris);
 .modal-form-message {
     display: block;
     margin-bottom: 16px;
+    padding: 8px 16px;
     width: 360px;
     height: 120px;
     border: 1px solid var(--color-navy-blue-modal);
@@ -926,6 +929,7 @@ outline-color: var(--color-iris);
         resize: none;
 }
 .modal-form-message:focus {
+    border: transparent;
     outline-color: var(--color-iris);
 }
 
@@ -934,7 +938,6 @@ outline-color: var(--color-iris);
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-padding: 8px 16px;
 color: var(--color-navy-blue-modal);
 }
 
